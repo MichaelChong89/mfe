@@ -1,6 +1,6 @@
 import React from 'react';
-// import { mount } from 'marketing/MarketingApp';
 import { BrowserRouter } from 'react-router-dom';
+// import { mount } from 'marketing/MarketingApp';
 import {
     StylesProvider,
     createGenerateClassName
@@ -19,7 +19,6 @@ export default () => {
             <StylesProvider generateClassName={generateClassName}>
                 <div>
                     <Header />
-                    <h1>Hi there!!</h1>
                     <MarketingApp />
                 </div>
             </StylesProvider>
