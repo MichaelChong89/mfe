@@ -31,7 +31,6 @@ export default () => {
               <Route path="/" component={MarketingLazy} />
             </Switch>
           </Suspense>
-
         </div>
       </StylesProvider>
     </BrowserRouter>
