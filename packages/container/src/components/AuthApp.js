@@ -16,10 +16,7 @@ export default ({ onSignIn }) => {
           history.push(nextPathname);
         }
       },
-      onSignIn: () => {
-        // console.log('User signed in');
-        onSignIn();
-      }
+      onSignIn,
     });
 
     history.listen(onParentNavigate);
@@ -27,3 +24,4 @@ export default ({ onSignIn }) => {
 
   return <div ref={ref} />;
 };
+
